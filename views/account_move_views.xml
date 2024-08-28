@@ -9,7 +9,7 @@
                         string="Print Journal Entry"
                         type="object"
                         class="btn-primary"
-                        attrs="{'invisible': [('move_type', 'in', ['out_invoice', 'in_invoice'])]}"/>
+                        t-if="not move_type in ['out_invoice', 'in_invoice']"/>
             </header>
         </field>
     </record>
@@ -24,7 +24,7 @@
                         string="Print Journal Entry"
                         type="object"
                         class="btn-primary"
-                        attrs="{'invisible': [('move_type', 'in', ['out_invoice', 'in_invoice'])]}"/>
+                        t-if="not move_type in ['out_invoice', 'in_invoice']"/>
             </xpath>
         </field>
     </record>
