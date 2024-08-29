@@ -19,13 +19,13 @@
         <field name="model">account.move</field>
         <field name="inherit_id" ref="account.view_move_tree"/>
         <field name="arch" type="xml">
-            <xpath expr="//tree" position="button">
+           <header>
                 <button name="print_journal_entry_report"
                         string="Print Journal Entry"
                         type="object"
                         class="btn-primary"
                         t-if="not move_type in ['out_invoice', 'in_invoice']"/>
-            </xpath>
+            </header>
         </field>
     </record>
 </odoo>
