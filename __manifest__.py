@@ -5,7 +5,7 @@
         Custom Journal Entry Report allows you to print the journal entries from account.move that are not invoices.""",
     "author": "Humanytek",
     "maintainers": ["mbrehumanytek"],
-    "website": "https://humanitek.com/",
+    "website": "https://humanytek.com/",
     "license": "AGPL-3",
     "category": "Technical Settings",
     "version": "17.0.1.2.0",
